@@ -7,8 +7,15 @@ public class oops1 {
         this.age = age;
     }
 
-   
-    
+    public String getName() {
+        return name;
+    }
+
+    public void display() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+    }
+}
 
 class Student extends Person {
     private int rollNo;
