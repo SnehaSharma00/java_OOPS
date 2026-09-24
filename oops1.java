@@ -1,4 +1,5 @@
-public class oops1 {
+class Person {
+
     private String name;
     private int age;
 
@@ -18,6 +19,7 @@ public class oops1 {
 }
 
 class Student extends Person {
+
     private int rollNo;
 
     Student(String name, int age, int rollNo) {
@@ -32,13 +34,13 @@ class Student extends Person {
     }
 }
 
-public class Main {
+public class oops1 {
+
     public static void main(String[] args) {
 
         Student s1 = new Student("Sneha", 22, 101);
 
         s1.display();
-
         System.out.println(s1.getName());
     }
 }
